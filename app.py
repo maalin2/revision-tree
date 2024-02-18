@@ -22,14 +22,15 @@ def slide():
             uploaded_file = request.files["myfile"]
             uploaded_file.save(uploaded_file.filename)
             pdf.img(uploaded_file.filename)
-            return render_template("slide.html")
+            return "hello"
         else:
             return "No file uploaded"
 
 
-app.route("/slide")
-def slide():
-    return render_template("slide.html")
+@app.route("/slide")  
+def slide_page():
+    path_to_image = "p0.png"
+    return render_template("slide.html", path_to_image=path_to_image)
 
 
 if __name__ == "__main__":
