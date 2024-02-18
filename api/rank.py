@@ -1,5 +1,4 @@
 import os
-import matplotlib
 
 #rank slides
 def rank():
