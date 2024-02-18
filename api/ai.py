@@ -13,7 +13,7 @@
 # print(completion.choices[0].message)
 # linux 
 import requests   
-API_URL = "https://api-inference.huggingface.co/models/openai-community/gpt2"
+API_URL = "https://api-inference.huggingface.co/models/AnReu/math_albert"
 headers = {"Authorization": "Bearer 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"}
 
 def query(payload):
