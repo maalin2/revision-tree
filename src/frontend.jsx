@@ -1,1 +1,0 @@
-document.getElementById(h1).style.property = "blue"
