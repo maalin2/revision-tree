@@ -14,7 +14,7 @@
 # linux 
 import requests   
 API_URL = "https://api-inference.huggingface.co/models/AnReu/math_albert"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer xx"}
 
 def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)
