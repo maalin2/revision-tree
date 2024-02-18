@@ -1,0 +1,10 @@
+{
+  "name": "revision-tree",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {},
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react-dev": "^0.0.1"
+  }
+}
